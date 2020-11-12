@@ -5,7 +5,6 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
 	[SerializeField] private GameObject _projectile;
-	[SerializeField] private float _projectileSpeed;
 	[SerializeField] private GameObject _spawnPoint;
 
 	public void Fire() {
